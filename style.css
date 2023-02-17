@@ -1,0 +1,225 @@
+body {
+   width: 100%;
+   height: auto;
+}
+
+.header {
+   width: 100%;
+   height: 48px;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   background-color: #F9F8FD;
+}
+
+.header__nav {
+   height: 41px;
+   width: 92%;
+   background-color: #fff;
+   border-radius: 75px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo {
+   background-image: url('images/logoname.svg');
+   width: 40px;
+   height: 15px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-left: 15px;
+}
+
+.waysign {
+   width: 9px;
+   margin-right: 5px;
+}
+
+.entry {
+   padding: 0;
+   margin: 0;
+   width: 78px;
+   height: 29px;
+   background-color: #38BFF2;
+   border-radius: 34px;
+   border: none;
+   color: #fff;
+   font-family: 'Gilroy-Medium';
+   font-size: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.menu_burger {
+   width: 17px;
+   height: 14px;
+   margin-right: 14px;
+   position: relative;
+   display: block;
+}
+
+.menu_burger span, .menu_burger:after, .menu_burger:before{
+   height: 2px;
+   width: 100%;
+   position: absolute;
+   background: #F15525;
+   margin: 0 auto;
+}
+.menu_burger span{
+   top: 6px;
+}
+.menu_burger:after, .menu_burger:before{
+   content: '';
+}
+
+.menu_burger::before {
+   top: 0px;
+}
+
+.menu_burger:after {
+   bottom: 0px;
+}
+
+.header_nav_elements {
+   position: absolute;
+   z-index: 10;
+   height: 576px;
+   width: 256px;
+   border-radius: 20px;
+   background-color: #fff;
+   top: 14px;
+   right: 10px;
+   display: none;
+}
+
+.bg {
+   background-color: #22253B;
+   position: absolute;
+   width: 100vw;
+   height: 100vh;
+   opacity: 0.9;
+   display: none;
+   z-index: 9;
+}
+
+body.open-menu {
+   pointer-events: none;
+   overflow: hidden;
+}
+
+body.open-menu .bg {
+   display: block;
+}
+
+.header_nav_elements.open-menu {
+   display: block;
+   pointer-events: all;
+}
+
+.closesign {
+   width: 15px;
+   height: 15px;
+   background-image: url('images/closesign.svg');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   position: absolute;
+   top: 25px;
+   right: 18px;
+}
+
+.menu {
+   height: auto;
+   width: auto;
+   position: absolute;
+   top: 53px;
+   left: 30px;
+}
+
+.menu li {
+   width: auto;
+   height: 40px;
+}
+
+.menu__item {
+   text-decoration: none;
+   font-family: 'Gilroy-medium';
+   font-size: 20px;
+   color: #22253B;
+}
+
+.menu__item:hover {
+   color: #F15525;
+}
+
+.menu__waysign {
+   width: 15px;
+   height: 13px;
+   margin-right: 8px;
+}
+
+.menu__entry {
+   padding: 0;
+   margin: 0;
+   width: 133px;
+   height: 49px;
+   background-color: #38BFF2;
+   border-radius: 34px;
+   border: none;
+   color: #fff;
+   font-family: 'Gilroy-Medium';
+   font-size: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   bottom: 34px;
+   left: 30px;
+}
+
+.entry:hover, .menu__entry:hover {
+   background-color: #F15525;
+}
+
+.main {
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.background-circles {
+   background-color: #F2F8FA;
+   border-radius: 100%;
+   width: 250px;
+   height: 250px;
+   border: 3px solid #fff;
+   box-sizing: border-box;
+   /*box-shadow: inset 0px 0px 30px 80px #f8fdfe,
+               inset 0px 0px 0px 115px #edf6f8,
+               inset 0px 0px 0px 118px #fff,
+               inset 0px 0px 30px 200px #f8fdfe,
+               inset 0px 0px 0px 230px #edf6f8,
+               inset 0px 0px 0px 233px #fff,
+               inset 0px 0px 30px 290px #f8fdfe,
+               inset 0px 0px 0px 320px #edf6f8,
+               inset 0px 0px 0px 323px #fff
+   ;*/
+   position: absolute; 
+   z-index: -1;
+   top: 382px;
+
+}
+
+.computer {
+   position: absolute;
+   width: 210px;
+   height: 220px;
+   z-index: 1;
+   top: 37px;
+   left: 37px;
+}
+
