@@ -3,6 +3,10 @@ body {
    height: auto;
 }
 
+body,html {
+   overflow-x: hidden;
+}
+
 .header {
    width: 100%;
    height: 48px;
@@ -86,7 +90,8 @@ body {
    position: absolute;
    z-index: 10;
    height: 576px;
-   width: 256px;
+   width: 100%;
+   max-width: 256px;
    border-radius: 20px;
    background-color: #fff;
    top: 14px;
@@ -283,6 +288,7 @@ body.open-menu .bg {
    font-family: "Gilroy-Regular";
    font-size: 18px;
    text-align: center;
+   margin-bottom: 404px;
 }
 
 .main__top__button:hover {
@@ -305,7 +311,7 @@ body.open-menu .bg {
    padding: 0;
    position: absolute;
    top: 645px;
-   margin-left: 5px;
+   margin-left: 3px;
 }
 
 .button_bg {
@@ -340,7 +346,7 @@ body.open-menu .bg {
 
 @media (max-width: 279px)
 {
-   .main__top__button img {
+   .main__top__button img, .orange {
       display: none;
    }
 
@@ -348,7 +354,19 @@ body.open-menu .bg {
       word-wrap: break-word;
    }
 
-   .orange {
-      display: none;
+   .button_bg, .button_bg_gray, .button_bg_white {
+      top: 675px
+   }
+
+   .header_nav_elements.open-menu {
+      width: 90%;
+   }
+
+   .menu__item {
+      font-size: 16px;
+   }
+
+   .menu {
+      left: 10px;
    }
 }
