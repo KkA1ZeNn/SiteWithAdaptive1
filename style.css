@@ -198,10 +198,11 @@ body.open-menu .bg {
 
 .main {
    width: 100%;
-   height: 1000px;
+   height: auto;
    display: flex;
    flex-direction: column;
    align-items: center;
+   overflow: hidden;
 }
 
 .background-circles {
@@ -241,6 +242,7 @@ body.open-menu .bg {
    flex-direction: column;
    justify-content: flex-start;
    align-items: center;
+   margin-bottom: 404px;
 }
 
 .main__top__header {
@@ -288,7 +290,6 @@ body.open-menu .bg {
    font-family: "Gilroy-Regular";
    font-size: 18px;
    text-align: center;
-   margin-bottom: 404px;
 }
 
 .main__top__button:hover {
@@ -344,6 +345,95 @@ body.open-menu .bg {
    z-index: -3;
 }
 
+.technologies {
+   width: 100%;
+   background-color: #fff;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   text-align: center;
+}
+
+.tech_header {
+   font-family: 'Gilroy-SemiBold';
+   font-size: 24px;
+   width: auto;
+   height: auto;
+   margin-bottom: 22px;
+}
+
+.skills__section{
+   background-color: #F2F8FA;
+   width: 93%;
+   height: 300px;
+   border-radius: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 4px 0px 9px 0px;
+}
+
+.section_row {
+   width: 89%;
+   height: 45px;
+   border-radius: 44px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: #fff;
+   font-family: 'Gilroy-Regular';
+   font-size: 14px;
+   text-align: center;
+}
+
+.row_block {
+   border-radius: 44px;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.blue {
+   background-color: #5096FF;
+   width: 100%;
+   height: 100%;
+}
+
+.yellow {
+   background-color: #FFB359;
+   width: 37%;
+}
+
+.red {
+   background-color: #FF6F50;
+   width: 60%;
+}
+
+.green {
+   background-color: #4BD071;
+   width: 100%;
+   height: 100%;
+}
+
+.light_blue {
+   background-color: #50C0FF;
+   width: 100%;
+   height: 100%;
+}
+
+.dark_blue {
+   background-color: #4B77B9;
+   width: 48%;
+}
+
+.purple {
+   background-color: #AF93FF;
+   width: 48%;
+}
+
 @media (max-width: 279px)
 {
    .main__top__button img, .orange {
@@ -360,6 +450,7 @@ body.open-menu .bg {
 
    .header_nav_elements.open-menu {
       width: 90%;
+      height: 400px;
    }
 
    .menu__item {
@@ -369,4 +460,25 @@ body.open-menu .bg {
    .menu {
       left: 10px;
    }
+
+   .background-circles {
+      width: 150px;
+      height: 150px;
+      top: 485px
+   }
+
+   .computer {
+      height: 140px;
+      top: 6px;
+      left: 4px;
+   }
+
+   .section_row {
+      font-size: 12px;
+   }
+
+   .main__top-information {
+      margin-bottom: 250px;
+   }
 }
+
