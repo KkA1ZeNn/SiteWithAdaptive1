@@ -221,7 +221,6 @@ body.open-menu .bg {
    position: absolute; 
    z-index: -3;
    top: 382px;
-
 }
 
 .computer {
@@ -361,11 +360,13 @@ body.open-menu .bg {
    width: auto;
    height: auto;
    margin-bottom: 22px;
+   text-align: center;
 }
 
 .skills__section{
-   background-color: #F2F8FA;
+   background-color: #eaf2f5;
    width: 93%;
+   max-width: 600px;
    height: 300px;
    border-radius: 30px;
    display: flex;
@@ -373,11 +374,12 @@ body.open-menu .bg {
    justify-content: space-evenly;
    align-items: center;
    padding: 4px 0px 9px 0px;
+   margin-bottom: 54px;
 }
 
 .section_row {
    width: 89%;
-   height: 45px;
+   height: 15%;
    border-radius: 44px;
    display: flex;
    align-items: center;
@@ -434,6 +436,133 @@ body.open-menu .bg {
    width: 48%;
 }
 
+.learning-in-YtYt {
+   width: 100%;
+   height: auto;
+   background-color: #fff;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 40px;
+}
+
+.advantages {
+   width: 93%;
+   max-width: 600px;
+   display: grid;
+   background-color: #fff;
+   gap: 10px;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 175px 155px 175px 86px;
+}
+
+.advantage__item {
+   background-color: #eaf2f5;
+   border-radius: 20px;
+   display: flex;
+}
+
+.last-item {
+  grid-column: span 2;
+}
+
+.wrapper {
+   margin: auto;
+   width: auto;
+   height: 74%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.wrapper.last {
+   height: auto;
+   width: auto;
+   flex-direction: row;
+}
+
+.item__img {
+   width: 40px;
+}
+
+.item__header {
+   font-family: 'Gilroy-SemiBold';
+   font-size: 12px;
+   text-align: center;
+   line-height: 12px;
+   color: #22253B;
+   margin: 0;
+}
+
+.item__p {
+   font-family: 'Gilroy-Regular';
+   font-size: 9px;
+   line-height: 12px;
+   text-align: center;
+   color: #22253B;
+}
+
+.wrapper__last {
+   height: 52%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+   margin-left: 20px;
+}
+
+.wrapper__last .item__header {
+   margin-bottom: 5px;
+}
+
+.wrapper__last .item__p {
+   text-align: start;
+}
+
+.how-to-learn {
+   height: auto;
+   width: 94%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+}
+
+.how-to-learn__p {
+   font-family: 'Gilroy-Regular';
+   font-size: 12px;
+   line-height: 17px;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.how-to-learn__videoblock {
+   width: 76%;
+   background-color: #fff;
+   border-radius: 10px;
+   padding: 10px 7px;
+   position: relative;
+}
+
+.how-to-learn__videoblock::before {
+   content: "";
+  display: block;
+  padding-top: 58%;
+}
+
+iframe {
+   border-radius: 10px;
+   width: 100%;
+   height: 100%;
+   position:  absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+}
+
 @media (max-width: 279px)
 {
    .main__top__button img, .orange {
@@ -461,6 +590,12 @@ body.open-menu .bg {
       left: 10px;
    }
 
+   .menu__entry {
+      left: 15px;
+      width: 110px;
+      height: 45px;
+   }
+
    .background-circles {
       width: 150px;
       height: 150px;
@@ -479,6 +614,87 @@ body.open-menu .bg {
 
    .main__top-information {
       margin-bottom: 250px;
+   }
+
+   .advantages {
+      gap: 5px;
+   }
+
+   .item__img {
+      width: 30px;
+   }
+
+   .item__header {
+      font-size: 10px;
+      line-height: 12px;
+   }
+
+   .item__p {
+      font-size: 8px;
+      line-height: 12px;
+   }
+}
+
+@media (min-width: 450px) {
+   .advantages {
+      grid-template-rows: 245px 225px 245px 116px;
+   }
+
+   .item__img {
+      width: 60px;
+   }
+
+   .item__header {
+      font-size: 18px;
+      line-height: 18px;
+   }
+
+   .item__p {
+      font-size: 12px;
+      line-height: 15px;
+   }
+}
+
+@media (min-width: 599px) {
+   .main__top__header {
+      font-size: 26px;
+      line-height: 25px;
+   }
+
+   .main__top__p {
+      font-size: 14px;
+      line-height: 20px;
+   }
+
+   .how-to-learn__p {
+      font-size: 14px;
+      line-height: 19px;
+   }
+
+   .skills__section {
+      height: 400px;
+   }
+
+   .section_row {
+      font-size: 17px;
+   }
+
+   .advantages {
+      grid-template-rows: 325px 305px 325px 156px;
+   }
+
+   .item__img {
+      width: 80px;
+   }
+
+   .item__header {
+      font-size: 22px;
+      line-height: 22px;
+   }
+
+   .item__p {
+      font-size: 14px;
+      line-height: 18px;
    }
 }
 
