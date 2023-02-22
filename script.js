@@ -8,6 +8,4 @@ $(document).ready(function() {
       $('.header_nav_elements').removeClass('open-menu');
       $('body').removeClass('open-menu');
   });
-
-  
 });

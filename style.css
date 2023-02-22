@@ -117,7 +117,7 @@ body,html {
    z-index: -1;
 }
 
-body.open-menu {
+body.open-menu{
    pointer-events: none;
    overflow: hidden;
 }
