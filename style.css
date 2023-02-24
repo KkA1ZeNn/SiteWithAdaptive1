@@ -537,6 +537,7 @@ body.open-menu .bg {
    flex-direction: column;
    align-items: center;
    justify-content: flex-start;
+   margin-bottom: 30px;
 }
 
 .how-to-learn__p {
@@ -570,6 +571,11 @@ iframe {
    left: 0;
    bottom: 0;
    right: 0;
+}
+
+.learning-steps {
+   height: 690px;
+   width: 94%;
 }
 
 @media (max-width: 279px)
