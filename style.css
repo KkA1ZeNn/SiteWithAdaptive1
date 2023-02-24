@@ -576,6 +576,53 @@ iframe {
 .learning-steps {
    height: 690px;
    width: 94%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   border-radius: 30px;
+   background-color: #fff;
+}
+
+
+.learning-steps__item {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: space-between;
+   height: 162px;
+   width: 81%;
+}
+
+.step__header-num {
+   font-family: "Gilroy-Bold";
+   font-size: 50px;
+   line-height: 30px;
+   color: #38BFF2;
+   height: 38px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.step__header {
+   font-family: "Gilroy-SemiBold";
+   font-size: 20px;
+   line-height: 19px;
+   color: #22253B;
+}
+
+.step__p {
+   font-family: "Gilroy-Regular";
+   font-size: 12px;
+   line-height: 14px;
+   color: #22253B;
+}
+
+.row {
+   height: 1px;
+   width: 81%;
+   background-color: #EAF2F5;
 }
 
 @media (max-width: 279px)
@@ -647,6 +694,25 @@ iframe {
    .item__p {
       font-size: 8px;
       line-height: 12px;
+   }
+
+   .step__header-num {
+      font-size: 35px;
+      line-height: 26px;
+   }
+   
+   .step__header {
+      font-size: 17px;
+      line-height: 17px;
+   }
+   
+   .step__p {
+      font-size: 10px;
+      line-height: 12px;
+   }
+
+   .learning-steps__item {
+      height: 190px;
    }
 }
 

@@ -10,4 +10,5 @@ $(document).ready(function() {
       $('body').removeClass('open-menu');
       $('html').removeClass('open-menu');
   });
+
 });
