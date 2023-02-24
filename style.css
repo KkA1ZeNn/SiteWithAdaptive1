@@ -127,12 +127,12 @@ body.open-menu{
    overflow: hidden;
 }
 
-body.open-menu .bg {
-   display: block;
+html.open-menu {
+   overflow: hidden;
 }
 
-body.open-menu .bodywrapper {
-   overflow: hidden;
+body.open-menu .bg {
+   display: block;
 }
 
 .header_nav_elements.open-menu {
