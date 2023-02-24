@@ -7,6 +7,11 @@ body,html {
    overflow-x: hidden;
 }
 
+.bodywrapper {
+   height: 100vh;
+   width: 100%;
+}
+
 .header {
    width: 100%;
    height: 48px;
@@ -124,6 +129,10 @@ body.open-menu{
 
 body.open-menu .bg {
    display: block;
+}
+
+body.open-menu .bodywrapper {
+   overflow: hidden;
 }
 
 .header_nav_elements.open-menu {
