@@ -550,6 +550,7 @@ body.open-menu .bg {
 
 .how-to-learn__videoblock {
    width: 76%;
+   max-width: 600px;
    background-color: #fff;
    border-radius: 10px;
    padding: 10px 7px;
@@ -573,17 +574,27 @@ iframe {
    right: 0;
 }
 
+.gray-bg-big {
+   background-color: #eef4f6;
+   width: 100%;
+   height: 900px;
+   position: absolute;
+   top: 2650px;
+   z-index: -3;
+}
+
 .learning-steps {
    height: 690px;
    width: 94%;
+   max-width: 600px;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: space-evenly;
    border-radius: 30px;
    background-color: #fff;
+   margin-bottom: 15px;
 }
-
 
 .learning-steps__item {
    display: flex;
@@ -612,6 +623,10 @@ iframe {
    color: #22253B;
 }
 
+.second_header {
+   font-size: 17px;
+}
+
 .step__p {
    font-family: "Gilroy-Regular";
    font-size: 12px;
@@ -623,6 +638,31 @@ iframe {
    height: 1px;
    width: 81%;
    background-color: #EAF2F5;
+}
+
+.start-lessons {
+   height: 150px;
+   width: 94%;
+   max-width: 600px;
+   border-radius: 30px;
+   background-color: #fff;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-bottom: 62px;
+}
+
+.start-lessons .main__top__button {
+   max-width: 250px;
+}
+
+.lesson_p {
+   font-family: "Manrope-Semibold";
+   font-size: 13px;
+   line-height: 18px;
+   color: #22253B;
+   text-align: center;
 }
 
 @media (max-width: 279px)
@@ -714,6 +754,10 @@ iframe {
    .learning-steps__item {
       height: 190px;
    }
+
+   .second_header {
+      font-size: 15px;
+   }
 }
 
 @media (min-width: 450px) {
@@ -776,6 +820,44 @@ iframe {
    .item__p {
       font-size: 14px;
       line-height: 18px;
+   }
+
+   .step__header-num {
+      font-size: 60px;
+      line-height: 30px;
+      height: 50px;
+   }
+   
+   .step__header {
+      font-size: 26px;
+      line-height: 25px;
+   }
+   
+   .step__p {
+      font-size: 15px;
+      line-height: 17px;
+   }
+
+   .learning-steps__item {
+      height: 200px;
+   }
+
+   .second_header {
+      font-size: 23px;
+   }
+
+   .learning-steps {
+      height: 850px;
+   }
+
+   .lesson_p {
+      font-size: 16px;
+      line-height: 20px;
+   }
+
+   .gray-bg-big {
+      top: 3100px;
+      height: 1200px;
    }
 }
 
