@@ -693,8 +693,8 @@ iframe {
    background-color: #EAF2F5;
    border-radius: 30px;
    display: flex;
-   flex-direction: column;
-   justify-content: space-between;
+   justify-content: center;
+   align-items: center;
 }
 
 .item1 {
@@ -716,6 +716,16 @@ iframe {
    font-size: 12px;
    line-height: 17px;
 }
+
+.help__wrapper {
+   width: 87%;
+   height: 74%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
 
 @media (max-width: 279px)
 {
@@ -767,10 +777,11 @@ iframe {
    }
 
    .main__top-information {
-      margin-bottom: 250px;
+      margin-bottom: 350px;
    }
 
    .advantages {
+      grid-template-rows: 175px 155px 190px 86px;
       gap: 5px;
    }
 
@@ -803,12 +814,73 @@ iframe {
       line-height: 12px;
    }
 
+   .learning-steps {
+      height: auto;
+      min-height: 580px;
+   }
+
    .learning-steps__item {
-      height: 190px;
+      height: auto;
+      min-height: 140px;
    }
 
    .second_header {
       font-size: 15px;
+   }
+
+   .help-header {
+      font-size: 17px;
+   }
+
+   .help-p {
+      font-size: 10px;
+   }
+
+   .item1, .item2 {
+      height: auto;
+      padding: 5px 0;
+      min-height: 250px;
+      margin: 10px 0;
+   }
+
+   .help__wrapper {
+      height: auto;
+      min-height: 74%;
+   }
+
+   .photo_block {
+      height: 15%;
+   }
+
+   .photo_block:first-child {
+      margin-top: 10px;
+   }
+
+   .photo_block img {
+      width: 95%;
+      max-width: 170px;
+   }
+
+   .help-and-support {
+      height: auto;
+   }
+
+   .start-lessons {
+      margin-bottom: 31px;
+   }
+}
+
+@media (max-width: 230px)
+{
+   .main__top-information {
+      margin-bottom: 270px;
+   }
+}
+
+@media (max-width: 160px)
+{
+   .main__top-information {
+      margin-bottom: 200px;
    }
 }
 
