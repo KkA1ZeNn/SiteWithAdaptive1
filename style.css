@@ -761,6 +761,33 @@ iframe {
    margin-bottom: 30px;
 }
 
+.last_p{
+   margin-bottom: 0;
+}
+
+.mobile-way_wrapper {
+   display: flex;
+   margin: 0 auto 20px 9%;
+}
+
+.mobile-way_wrapper img:first-child {
+   margin-right: 6px;
+}
+
+.table-info {
+   width: 97%;
+   height: 485px;
+   background-color: red;
+   margin-left: auto;
+   border-bottom-left-radius: 30px;
+   border-top-left-radius: 30px;
+   overflow-x: scroll;
+}
+
+.class {
+   height: 100%;
+   width: 1000px;
+}
 
 @media (max-width: 279px)
 {
