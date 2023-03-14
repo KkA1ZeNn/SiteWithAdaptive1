@@ -11,4 +11,8 @@ $(document).ready(function() {
       $('html').removeClass('open-menu');
   });
 
+  $('.mobile-way_wrapper').click(function() {
+   const $form = document.getElementById('last__point');
+   $form.scrollIntoView({inline: "start", behavior: "smooth"});
+  });
 });
