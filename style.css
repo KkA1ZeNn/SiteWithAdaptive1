@@ -896,6 +896,116 @@ iframe {
    width: 12px;
 }
 
+.footer {
+   margin-top: 40px;
+   min-height: 670px;
+   height: auto;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.information__header {
+   max-width: 257px;
+   width: 80%;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.footer__logo {
+   background-image: url('images/logoname.svg');
+   width: 87px;
+   height: 32px;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.logo__name {
+   font-family: 'Gilroy-Regular';
+   font-size: 15px;
+   line-height: 19px;
+   color: #8E8E8E;
+}
+
+.information__icons {
+   height: auto;
+   width: 59%;
+   max-width: 188px;
+   min-width: 130px;
+   display: flex;
+   align-items:  center;
+   justify-content: space-between;
+}
+
+.icons__ico {
+   width: 18%;
+   min-width: 30px;
+}
+
+.footer_nav {
+   height: 170px;
+   width: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.fnav__li__a {
+   text-decoration: none;
+   font-family: 'Gilroy-Regular';
+   font-size: 13px;
+   color: #22253B;
+}
+
+.contacts {
+   max-width: 147px;
+   width: auto;
+   height: 47px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   font-family: 'Gilroy-Regular';
+   font-size: 16px;
+}
+
+.telephone {
+   color: #38BFF2;
+}
+
+.email {
+   color: #22253B;
+}
+
+.extrainfo {
+}
+
+.rigths {
+}
+
+.black_span {
+}
+
+.orange_span {
+}
+
+@media (max-width: 305px)
+{
+   .footer__logo {
+      width: 60px;
+      height: 25px;
+      min-width: 35px;
+      background-size: contain;
+      background-position: center;
+      margin-right: 10px;
+   }
+}
+
 @media (max-width: 279px)
 {
    .main__top__button img, .orange {
@@ -1053,12 +1163,27 @@ iframe {
    .cost__photo {
       width: 45px;
    }
+   
 }
 
 @media (max-width: 230px)
 {
    .main__top-information {
       margin-bottom: 270px;
+   }
+
+   .footer__logo {
+      display: none;
+   }
+
+   .information__header {
+      width: 100%;
+   }
+
+   .logo__name {
+      font-size: 13px;
+      margin: auto;
+      text-align: center;
    }
 }
 
@@ -1067,6 +1192,7 @@ iframe {
    .main__top-information {
       margin-bottom: 200px;
    }
+   
 }
 
 @media (min-width: 450px) {
