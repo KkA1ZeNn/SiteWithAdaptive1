@@ -449,11 +449,13 @@ body.open-menu .bg {
    width: 100%;
    height: auto;
    background-color: #fff;
-   border-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
    display: flex;
    flex-direction: column;
    align-items: center;
-   margin-bottom: 40px;
+   padding-bottom: 12px;
+   margin-bottom: 28px;
 }
 
 .advantages {
@@ -574,13 +576,13 @@ iframe {
    right: 0;
 }
 
-.gray-bg-big {
-   background-color: #eef4f6;
+.big_gray_wrapper {
    width: 100%;
-   height: 900px;
-   position: absolute;
-   top: 2650px;
-   z-index: -3;
+   height: auto;
+   background-color: #f9f8fd;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .learning-steps {
@@ -897,7 +899,7 @@ iframe {
 }
 
 .footer {
-   margin-top: 40px;
+   padding-top: 40px;
    min-height: 670px;
    height: auto;
    width: 100%;
@@ -905,6 +907,7 @@ iframe {
    flex-direction: column;
    align-items: center;
    justify-content: space-between;
+   background-color: #f9f8fd;
 }
 
 .information__header {
@@ -983,15 +986,41 @@ iframe {
 }
 
 .extrainfo {
+   height: auto;
+   min-height: 69px;
+   font-family: 'Gilroy-Regular';
+   font-size: 13px;
+   line-height: 23px;
+   text-align: center;
+   color: #8E8E8E;
+}
+
+.row_span{
+   width: 94%;
+   max-width: 600px;
+   height: 1px;
+   background-color: #D8D8D8;
 }
 
 .rigths {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 20px;
+   font-family: 'Gilroy-Regular';
+   font-size: 12px;
+   line-height: 23px;
+   text-align: center;
 }
 
 .black_span {
+   color: #8E8E8E;
+   margin-bottom: 13px;
 }
 
 .orange_span {
+   color: #F15525;
+   margin-bottom: 6px;
 }
 
 @media (max-width: 305px)
