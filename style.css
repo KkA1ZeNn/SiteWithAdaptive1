@@ -105,13 +105,65 @@ body,html {
 }
 
 .bg {
-   background-color: #22253B;
-   position: absolute;
+   background-color: rgba(34, 37, 59, 0.9);
+   position: fixed;
    width: 100vw;
    height: 100vh;
-   opacity: 0.9;
    display: none;
    z-index: 9;
+}
+
+.popapquest {
+   width: 94%;
+   max-width: 600px;
+   height: auto;
+   background-color: #fff;
+   display: none;
+   position: relative;
+   border-radius: 30px;
+}
+
+.popapquest .main__top__button {
+   width: 64%;
+   max-width: 191px;
+   height: 54px;
+   margin-bottom: 40px;
+}
+
+.popap__header {
+   margin-top: 45px;
+   text-align: center;
+   font-family: 'Gilroy-SemiBold';
+   font-size: 16px;
+   line-height: 21px;
+   margin-bottom: 13px;
+}
+
+.popap__p {
+   text-align: center;
+   font-family: 'Gilroy-Regular';
+   font-size: 12px;
+   line-height: 18px;
+   margin-bottom: 24px;
+}
+
+.closepopap {
+   width: 15px;
+   height: 15px;
+   background-image: url('images/closesign.svg');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   position: absolute;
+   top: 15px;
+   right: 15px;
+}
+
+.popapquest.open-menu {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   pointer-events: all;
 }
 
 .bg_header_gray {
@@ -132,7 +184,9 @@ html.open-menu {
 }
 
 body.open-menu .bg {
-   display: block;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .header_nav_elements.open-menu {
