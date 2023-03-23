@@ -40,6 +40,14 @@ body,html {
    margin-left: 15px;
 }
 
+.pc_menu {
+   display: none;
+}
+
+.solo {
+   display: none;
+}
+
 .waysign {
    width: 9px;
    margin-right: 5px;
@@ -424,6 +432,7 @@ body.open-menu .bg {
    height: auto;
    margin-bottom: 22px;
    text-align: center;
+   max-width: 209px;
 }
 
 .skills__section{
@@ -1379,3 +1388,155 @@ iframe {
    }
 }
 
+@media (min-width: 899px) {
+   .header__nav {
+      height: 51px;
+      max-width: 1160px;
+   }
+
+   .logo {
+      width: 53px;
+      height: 20px;
+   }
+
+   .pc_menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 500px;
+   }
+
+   .pc_menu__item {
+      text-decoration: none;
+      font-family: 'Gilroy-Regular';
+      font-size: 13px;
+      color: #22253B;
+   }
+
+   .pc_menu__item:hover {
+      color: #F15525;
+   }
+
+   .menu_burger {
+      display:  none;
+   }
+
+   .entry {
+      margin-right: 10px;
+      margin-left: 15px;
+   }
+
+   .but_wrapper {
+      display: flex;
+      align-items: center;
+   }
+
+   .solo {
+      display: block;
+   }
+
+   .main__top-information {
+      height: auto;
+      width: 92%;
+      max-width: 1160px;
+      align-items: flex-start;
+      margin-top: 60px;
+      margin-bottom: 203px;
+      padding: 0;
+   }
+
+   .main__top__header {
+      width: 638px;
+      font-size: 46px;
+      line-height: 46px;
+      font-family: 'Gilroy-Regular';
+      text-align: start;
+      margin-bottom: 46px;
+   }
+
+   .main__top__p {
+      width: 365px;
+      font-size: 16px;
+      line-height: 23px;
+      font-family: 'Gilroy-Regular';
+      text-align: start;
+      margin-bottom: 18px;
+   }
+
+   .orange {
+      font-size: 46px;
+      margin: 0;
+      font-weight: bold;
+   }
+
+   .main__top__button {
+      width: 321px;
+      height: 70px;
+   }
+
+   .tech_header {
+      max-width: none;
+      font-size: 46px;
+      line-height: 46px;
+      margin-bottom: 35px;
+   }
+
+   .skills__section {
+      padding: 0;
+      height: 396px;
+      width: 92%;
+      max-width: 1160px;
+      margin-bottom: 84px;
+   }
+
+   .advantages {
+      width: 93%;
+      height: 535px;
+      max-width: 1160px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      background-color: #fff;
+   }
+
+   .advantages br {
+      display: none;
+   }
+
+   .advantage__item {
+      width: 23%;
+      height: 254px;
+   }
+
+   .advantages .advantage__item:nth-child(5)
+   {
+      margin-right: 24px;
+      margin-left: auto;
+   }
+
+   .advantages .advantage__item:nth-child(7)
+   {
+      margin-left: 24px;
+      margin-right: auto;
+   }
+
+   .last-item {
+      display: none;
+   }
+
+   .deleted-item {
+      display: block !important;
+   }
+
+   .item__img {
+      width: 58px;
+   }
+
+   .item__header {
+      font-size: 16px;
+      width: 166px;
+      line-height: 18px;
+   }
+
+}
