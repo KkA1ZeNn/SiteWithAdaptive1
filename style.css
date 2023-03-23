@@ -1521,6 +1521,12 @@ iframe {
       margin-right: auto;
    }
 
+   .advantages .advantage__item:nth-child(2) .item__header
+   {
+      width: auto;
+      max-width: 200px;
+   }
+
    .last-item {
       display: none;
    }
