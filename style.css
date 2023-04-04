@@ -690,6 +690,10 @@ iframe {
    color: #22253B;
 }
 
+.step__header__dis, .step__p_dis {
+   display: none;
+}
+
 .second_header {
    font-size: 17px;
 }
@@ -1556,4 +1560,43 @@ iframe {
       line-height: 18px;
    }
 
+   .learning-in-YtYt {
+      padding-bottom: 84px;
+      margin-bottom: 55px;
+   }
+
+   .how-to-learn__p {
+      width: 642px;
+      font-size: 16px;
+   }
+
+   .learning-steps {
+      max-width: 1160px;
+      width: 83%;
+      flex-direction: row;
+      height: 349px;
+
+   }
+
+   .learning-steps__item {
+      height: 237px;
+      width: 20%;
+   }
+
+   .row {
+      width: 1px;
+      height: 259px;
+   }
+
+   .step__header-num {
+      font-size: 77px;
+   }
+
+   .step__header, .step__p{
+      display: none;
+   }
+
+   .step__header__dis, .step__p_dis {
+      display: block;
+   }
 }
