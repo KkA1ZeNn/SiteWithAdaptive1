@@ -139,6 +139,8 @@ body,html {
 }
 
 .popap__header {
+   width: auto;
+   max-width: 213px;
    margin-top: 45px;
    text-align: center;
    font-family: 'Gilroy-SemiBold';
@@ -148,6 +150,8 @@ body,html {
 }
 
 .popap__p {
+   width: auto;
+   max-width: 264px;
    text-align: center;
    font-family: 'Gilroy-Regular';
    font-size: 12px;
@@ -1874,6 +1878,37 @@ iframe {
    .warning__img {
       width: 90px;
       margin: 0;
+   }
+
+   .popapquest.open-menu {
+      width: 740px;
+      height: 330px;
+   }
+
+   .popap__header {
+      max-width: 506px;
+      font-size: 24px;
+      line-height: 26px;
+      margin-top: 55px;
+      margin-bottom: 22px;
+   }
+
+   .popap__p {
+      max-width: 515px;
+      font-size: 15px;
+      line-height: 20px;
+      margin-bottom: 20px;
+   }
+
+   .main__top__button.popapbut {
+      height: 70px;
+      width: 197px;
+      margin: 0;
+   }
+
+   .closepopap {
+      top: 20px;
+      right: 25px;
    }
 }
 
