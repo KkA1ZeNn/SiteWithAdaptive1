@@ -12,7 +12,13 @@ $(document).ready(function() {
       $('.header_nav_elements').removeClass('open-menu');
       $('body').removeClass('open-menu');
       $('html').removeClass('open-menu');
-  });
+   });
+
+   $('.menu__item').click(function() {
+      $('.header_nav_elements').removeClass('open-menu');
+      $('body').removeClass('open-menu');
+      $('html').removeClass('open-menu');
+   });
 
   $('.mobile-way_wrapper').click(function() {
    const $form = document.getElementById('last__point');

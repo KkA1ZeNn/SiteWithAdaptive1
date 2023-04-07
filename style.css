@@ -735,7 +735,7 @@ body.open-menu .bg {
    justify-content: flex-start;
    align-items: center;
    text-align: center;
-   padding-top: 100px;
+   padding-top: 60px;
 }
 
 .tech_header {
@@ -922,7 +922,7 @@ body.open-menu .bg {
    flex-direction: column;
    align-items: center;
    justify-content: flex-start;
-   margin-bottom: 30px;
+   margin: 0 auto 30px auto;
 }
 
 .how-to-learn__p {
@@ -1450,6 +1450,10 @@ iframe {
       width: auto;
       max-width: 95%;
    }
+
+   .circles-bg-wrapper {
+      margin-bottom: 390px;
+   }
 }
 
 @media (max-width: 279px)
@@ -1499,10 +1503,6 @@ iframe {
 
    .section_row {
       font-size: 12px;
-   }
-
-   .circles-bg-wrapper  {
-      margin-bottom: 350px;
    }
 
    .advantages {
@@ -1613,7 +1613,6 @@ iframe {
    .lesson_p {
       width: auto;
    }
-   
 }
 
 @media (max-width: 250px)
@@ -1630,7 +1629,7 @@ iframe {
 @media (max-width: 230px)
 {
    .circles-bg-wrapper  {
-      margin-bottom: 270px;
+      margin-bottom: 340px;
    }
 
    .footer__logo {
@@ -1690,7 +1689,11 @@ iframe {
 @media (max-width: 160px)
 {
    .circles-bg-wrapper  {
-      margin-bottom: 200px;
+      margin-bottom: 250px;
+   }
+
+   .entry {
+      width: 50px;
    }
    
 }
@@ -2589,7 +2592,6 @@ iframe {
       align-items: center;
       justify-content: center;
       margin: 0px;
-
    }
 
    .how-to-learn {
