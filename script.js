@@ -23,8 +23,16 @@ $(document).ready(function() {
    });
 
    $('.closepopap').click(function() {
+      $('.standartwindow').removeClass('inactive');
+      $('.question1').addClass('inactive');
       $('body').removeClass('open-menu');
       $('html').removeClass('open-menu');
       $('.popapquest').removeClass('open-menu');
-  });
+   });
+
+   $('.popapbut').click(function() {
+      $('.standartwindow').addClass('inactive');
+      $('.question1').removeClass('inactive');
+   });
+
 });

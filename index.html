@@ -14,25 +14,68 @@
 <body>
    <div class="bg"> 
       <div class="popapquest">
-         <div class="closepopap"></div>
-         <h2 class="popap__header">
-            Перед тем, как приступить
-            к обучению, необходимо
-            пройти небольшой тест
-         </h2>
-         <p class="popap__p">
-            Тест состоит из 4 заданий на логическое
-            мышление и прочие навыки, необходимые
-            программисту. Задания не самые простые. Но
-            ни в коем случае не выбирайте ответы наугад.
-            Если вы не можете дать правильный ответ –
-            выбирайте пункт «Не знаю».
-         </p>
-         <div class="main__top__button popapbut">
-            Начать тест
-            <img src="images/Arrow 1.svg">
+         <div class="standartwindow">
+            <div class="closepopap"></div>
+            <h2 class="popap__header">
+               Перед тем, как приступить
+               к обучению, необходимо
+               пройти небольшой тест
+            </h2>
+            <p class="popap__p">
+               Тест состоит из 4 заданий на логическое
+               мышление и прочие навыки, необходимые
+               программисту. Задания не самые простые. Но
+               ни в коем случае не выбирайте ответы наугад.
+               Если вы не можете дать правильный ответ –
+               выбирайте пункт «Не знаю».
+            </p>
+            <div class="main__top__button popapbut">
+               Начать тест
+               <img src="images/Arrow 1.svg">
+            </div>
+         </div>
+         <div class="question1 inactive">
+            <div class="closepopap"></div>
+            <div class="question1__row">
+               <div class="row1_block">
+                  ЗАДАНИЕ №1
+               </div>
+            </div>
+            <div class="question1__row">
+               <p class="row2__p">
+                  Иван Иванович купил в магазине у дома несколько пачек макарон по 40 рублей,<br>
+                  несколько пачек печенья по 32 рубля и 2 пакета сока. Продавщица сказала, что с него<br>
+                  525 рублей (скидка не предусмотрена). Иван Иванович заявил, что его пытаются<br>
+                  обсчитать. Действительно ли продавщица ошиблась в подсчетах?
+               </p>
+            </div>
+            <div class="question1__row">
+               <div class="row3__left">
+                  <form action="" class="quest1__form">
+                     <label>
+                        <input type = "radio" name = "question1" value = "correct" class = "question1__radio"> 
+                        Да, сумма явно неверная
+                     </label>
+                     <label>
+                        <input type = "radio" name = "question1" value = "incorrect" class = "question1__radio">
+                         Нет, такая сумма вполне могла получиться
+                     </label>
+                     <label>
+                        <input type = "radio" name = "question1" value = "dontknow" class = "question1__radio">
+                        Не знаю, не получается решить
+                     </label>
+                  </form>
+               </div>
+               <div class="row3__right">
+                  <div class="main__top__button question1__button">
+                     Ответить
+                     <img src="images/arrowright.svg">
+                  </div>
+               </div>
+            </div>
          </div>
       </div>
+      
    </div>
    <header class="header">
       <div class="header__nav">
@@ -72,21 +115,25 @@
    </header>
    <div class="bg_header_gray"></div>
    <main class="main">
-      <div class="main__top-information">
-         <div class="main__top__header">
-            Школа
-            <span class="orange">{</span><span class="central">программирования</span><span class="orange">}</span>
-            для тех, кому нужны
-            реальные навыки,<br>
-            а не просто сертификат<br>
-         </div>
-         <div class="main__top__p">
-            Пройдите тестирование, чтобы получить
-            доступ к бесплатным вводным урокам
-         </div>
-         <div class="main__top__button">
-            Пройти тестирование
-            <img src="images/Arrow 1.svg">
+      <div class="circles-bg-wrapper">
+         <div class="main-inf-wrapper">
+            <div class="main__top-information">
+               <div class="main__top__header">
+                  Школа
+                  <span class="orange">{</span><span class="central">программирования</span><span class="orange">}</span>
+                  для тех, кому нужны
+                  реальные навыки,<br>
+                  а не просто сертификат<br>
+               </div>
+               <div class="main__top__p">
+                  Пройдите тестирование, чтобы получить
+                  доступ к бесплатным вводным урокам
+               </div>
+               <div class="main__top__button">
+                  Пройти тестирование
+                  <img src="images/Arrow 1.svg">
+               </div>
+            </div>
          </div>
       </div>
       <div class="background-circles">
@@ -122,6 +169,32 @@
                <div class="section_row">
                   <div class="row_block dark_blue">Docker</div>
                   <div class="row_block purple">Git</div>
+               </div>
+            </div>
+            <div class="skills__section-dis">
+               <div class="skills-dis-left">
+                  <img src="images/manwithpc.svg" alt="man_with_pc" class = "man_with_pc">
+               </div>
+               <div class="skills-dis-right">
+                  <div class="skills-block">
+                     <div class="skill-block__row">
+                        <div class="block__row__item blueblock">Язык программирования Python</div>
+                        <div class="block__row__item yellowblock">Сети</div>
+                     </div>
+                     <div class="skill-block__row">
+                        <div class="block__row__item redblock">Базы данных</div>
+                        <div class="block__row__item greenblock">Фреймворки Flask и Django</div>
+                     </div>
+                     <div class="skill-block__row">
+                        <div class="block__row__item lightblueblock">Отладка и тестирование</div>
+                        <div class="block__row__item darkblueblock">Docker</div>
+                        <div class="block__row__item purpleblock">Git</div>
+                     </div>
+                  </div>
+                  <p class="skills-right__p">
+                     Это необходимый минимум для<br>
+                     современного backend-разработчика
+                  </p>
                </div>
             </div>
          </section>
@@ -243,25 +316,27 @@
 
             </div>
          </section>
-         <section class="how-to-learn">
-            <h3 class="tech_header">
-               Как происходит
-               обучение на YtYt?
-            </h3>
-            <p class="how-to-learn__p">
-               Обучение должно быть комфортным. Поэтому мы
-               разработали собственную платформу, на
-               которой вы сможете не только изучать теорию,
-               но и запускать готовые примеры и даже писать
-               свой собственный код.
-            </p>
-            <div class="how-to-learn__videoblock">
-               <iframe id="ytplayer" type="text/html"
-                  src="https://www.youtube.com/embed/iUVNspaiBAo?controls=0&disablekb=1&fs=0&loop=1&modestbranding=1"
-                  frameborder="0" allowfullscreen>
-               </iframe>
-            </div>
-         </section>
+         <div class="how-to-wrap">
+            <section class="how-to-learn">
+               <h3 class="tech_header">
+                  Как происходит
+                  обучение на YtYt?
+               </h3>
+               <p class="how-to-learn__p">
+                  Обучение должно быть комфортным. Поэтому мы
+                  разработали собственную платформу, на
+                  которой вы сможете не только изучать теорию,
+                  но и запускать готовые примеры и даже писать
+                  свой собственный код.
+               </p>
+               <div class="how-to-learn__videoblock">
+                  <iframe id="ytplayer" type="text/html"
+                     src="https://www.youtube.com/embed/iUVNspaiBAo?controls=0&disablekb=1&fs=0&loop=1&modestbranding=1"
+                     frameborder="0" allowfullscreen>
+                  </iframe>
+               </div>
+            </section>
+         </div>
          <section class="learning-steps">
             <div class="learning-steps__item">
                <div class="step__header-num">01</div>
@@ -529,7 +604,7 @@
             </table>
          </section>
          <div class="post-scriptum">
-            * если занятиям уделяется около 20 часов в неделю
+            <span>* если занятиям уделяется около 20 часов в неделю</span>
          </div>
          <section class="warning-information">
             <img src="images/svg-gobbler (1) 2.svg" alt="" class="warning__img">
@@ -619,9 +694,82 @@
          </span>
       </div>
    </footer>
-   </div>
+   <footer class="footer-dis">
+      <div class="footer-dis__wrapper">
+         <div class="footer-dis__mainblock">
+            <div class="footer-dis__mainblock__item fitem1">
+               <div class="fitem1__logoname">
+                  <div class="footer__logo"></div>
+                  <div class="logo__name">
+                     Школа<br>
+                     программирования
+                  </div>
+               </div>
+               <div class="information__icons">
+                  <img src="images/ico1.svg" alt="" class="icons__ico">
+                  <img src="images/ico2.svg" alt="" class="icons__ico">
+                  <img src="images/ico3.svg" alt="" class="icons__ico">
+                  <img src="images/ico4.svg" alt="" class="icons__ico">
+               </div>
+            </div>
+            <div class="footer-dis__mainblock__item fitem2">
+               <ul class="footer_nav">
+                  <li class="fnav__li">
+                     <a href="" class="fnav__li__a">
+                        Чему вы научитесь
+                     </a>
+                  </li>
+                  <li class="fnav__li">
+                     <a href="" class="fnav__li__a">
+                        Процесс обучения
+                     </a>
+                  </li>
+                  <li class="fnav__li">
+                     <a href="" class="fnav__li__a">
+                        Стоимость
+                     </a>
+                  </li>
+                  <li class="fnav__li">
+                     <a href="" class="fnav__li__a">
+                        Контакты
+                     </a>
+                  </li>
+                  <li class="fnav__li">
+                     <a href="" class="fnav__li__a">
+                        Регистрация
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer-dis__mainblock__item fitem3">
+               <div class="contacts">
+                  <span class="telephone">
+                     +7 (499) 348 93 96
+                  </span><span class="email">
+                     info@ytyt.ru
+                  </span>
+               </div>
+               <div class="extrainfo">
+                  ИП Умаров Т. А.<br>
+                  ИНН 745216229809<br>
+                  ОГРНИП 315745200001358
+               </div>
+            </div>
+         </div>
+         <span class="footerrow"></span>
+         <div class="footer-dis__littleblock">
+            <span class="gray_span">
+               © 2021 ytyt — Все права защищены
+            </span>
+            <span class="gray_span">
+               Пользовательское соглашение
+            </span><span class="gray_span">
+               Политика конфиденциальности
+            </span>
+         </div>
+      </div>
+   </footer>
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
    <script src="script.js"></script>
 </body>
-
 </html>
