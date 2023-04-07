@@ -1804,18 +1804,22 @@ iframe {
    .header__nav {
       height: 51px;
       max-width: 1160px;
+      justify-content: flex-start;
    }
 
    .logo {
       width: 53px;
       height: 20px;
+      margin-right: 6%;
    }
 
    .pc_menu {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      width: 500px;
+      width: 43%;
+      min-width: 400px;
+      margin-right: auto !important;
    }
 
    .pc_menu__item {
