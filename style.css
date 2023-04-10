@@ -2035,6 +2035,10 @@ iframe {
       text-align: start;
       font-size: 15px;
       line-height: 18px;
+      font-family: 'Gilroy-SemiBold';
+      font-size: 15px;
+      line-height: 18px;
+      color: #22253B;
    }
 
    .help-and-support {
